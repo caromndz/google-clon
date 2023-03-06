@@ -1,0 +1,260 @@
+
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+
+a{
+    
+    text-decoration: none;
+    cursor: pointer; 
+
+}
+
+
+header{
+    
+    width: 100%;
+    height: 60px;
+
+}
+
+/*se tiene que hacer cada vez más específico para definir prioridades*/
+
+header nav{
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+header nav .encabezado {
+
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+
+
+nav .encabezado a {
+
+    margin-right: 10px;
+    color: black;
+
+}
+
+nav .encabezado .icon-png {
+
+    background-image: url(imagenes-clon/aplicaciones.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+
+}
+
+nav .encabezado .acceder {
+
+    margin-right: 60px;
+    width: 25px;
+    height: 25px;
+
+}
+
+
+
+main {
+
+    margin-top: 66px;
+    text-align: center;
+
+}
+
+
+main #logo {
+    
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    
+}
+
+main #logo img{
+
+    width: 272px;
+
+}
+
+main .search {
+
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+
+}
+
+main .search-bar {
+
+    width: 550px;
+    border-radius: 100px;
+    border: 1px solid #e1e2e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .search input {
+    
+    width: 400px;
+    height: 40px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+}
+
+main .search-bar:hover{
+
+    box-shadow: 0 1px 6px 0 #e8e8e9;
+}
+
+main .search .search-icon {
+/*38:46*/
+    background-image: url('imagenes-clon/lupa.PNG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+
+}
+
+main .search .microfono {
+
+    background-image: url('imagenes-clon/microfono.PNG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+}
+
+main .search .camara {
+
+    background-image: url('imagenes-clon/camara.PNG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    margin-right: .5px;
+}
+
+main .buttons {
+
+    width: 530px;
+    margin: 0 auto;
+
+}
+
+main .buttons div{
+
+    display: inline-block;
+
+}
+
+main .buttons button{
+
+    height: 36px;
+    background-color: #f8f9fa;
+    border: none;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 10px;
+
+}
+
+main .buttons button:hover{
+
+    border: 1px solid #dadce0;
+    box-shadow: 5px #dadce9;
+    color: #202124;
+
+}
+
+footer {
+    
+    width: 100%;
+    
+    position: absolute;
+    bottom: 0%;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr; dos columnas con mismo espacio*/
+    
+    /*align-items: center;*/
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    font-size: 15px;
+    color:#70757a;
+
+}
+
+footer div {
+
+    padding: 5px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+
+footer div .pais {
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer div .footer-links {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+footer ul {
+
+    padding-left: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+
+footer .footer-left {
+
+    justify-content: left;
+
+}
+
+footer .footer-right {
+
+   justify-content: right;
+   
+}
+
+footer ul li a{
+
+    margin: 10px;
+    color: #5f6368;
+}
